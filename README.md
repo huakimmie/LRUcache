@@ -1,2 +1,2 @@
 # LRUcache
-Implementation of a RAII following, templated Least Recently Used cache 
+Built on top of the standard vector, this custom container is written to function as a least-recently used cache. Again following the concepts of RAII, this implementation abstracts all memory management away from the user. Technical structures such as try-catch blocks and exception handling are included to ensure full functionality in the face of any edge case. Furthermore, the class is templated to allow for the use of any unit storage data type, and also features a custom iterator to allow for easy handling and usage.
